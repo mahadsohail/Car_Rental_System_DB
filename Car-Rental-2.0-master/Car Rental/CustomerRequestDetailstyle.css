@@ -1,0 +1,71 @@
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.customer-details {
+	background-color: #f9f9f9;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.customer-details p {
+	margin-bottom: 10px;
+}
+
+.btn {
+	background-color: #007bff;
+	color: #fff;
+	border: none;
+	border-radius: 3px;
+	padding: 10px 20px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	margin-right: 10px; /* add margin-right property to create space between buttons */
+}
+
+.btn:hover {
+	background-color: #0062cc;
+}
+header{
+	text-align: center;
+	background-color: #333;
+	color:#fff;
+	padding: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar a {
+	width: 100%;
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color:#555;
+}

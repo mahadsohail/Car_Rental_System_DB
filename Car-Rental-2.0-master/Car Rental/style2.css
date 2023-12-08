@@ -1,0 +1,152 @@
+header{
+  text-align: center;
+  background-color: #333;
+  padding:10px;
+  color: white;
+}
+
+.intro p{
+  font-family: sans-serif;
+  font-weight: normal;
+  font-size: large;
+}
+
+.imgtag{
+  float: right;
+}
+.intro img{
+ 
+
+    image-rendering: pixelated;
+}
+.entry{
+
+}
+.cars, .panels {
+  display: flex;
+  flex-direction: column;
+  max-width: 800px;
+  margin:20px auto;
+  padding: 20px;
+}
+.car1, .panel1 {
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+.car1 h3, .panel1 h3 {
+  text-align: center;
+}
+.car1 img, .panel1 img {
+  display: block;
+  margin:auto
+}
+.car1 button, .panel1 button {
+  padding: 10px;
+  border-radius: 10px;
+  border: 3px solid black;
+  background-color: #f44336;
+  color: azure;
+  font-weight: bold;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+.car1 button:hover, .panel1 button:hover {
+  background-color: #d32;
+}
+.carHeader, .panelHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.carFooter, .panelFooter {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  padding:10px;
+}
+.carHeader h5, .panelHeader h5 {
+  color: red;
+  margin: 5px;
+}
+.carHeader h3, .panelHeader h3 {
+  margin:5px;
+  font-weight: bolder;
+}
+.navbar ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar a {
+	width: 100%;
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: #ffffff;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color: #555;
+}
+
+.intro{
+  max-width: 800px;
+  margin: 20px auto;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+  
+
+
+input[type="text"],
+select {
+  font-size: 16px;
+  padding: 10px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+input[type="date"] {
+  font-size: 16px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+  width: 170px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+label {
+  font-size: 16px;
+  margin-right: 10px;
+}
+
+.filters {
+ 
+}

@@ -1,0 +1,158 @@
+body {
+	
+	
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0;
+}
+
+main{
+	
+}
+
+.navbar ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar a {
+	width: 100%;
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color:#555;
+}
+
+
+
+
+
+
+
+.title{
+	margin-right: 300px;
+	font-family: 'Times New Roman', Times, serif;
+}
+.tagline{
+	text-align: center;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+}
+.intro{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	
+}
+
+
+.background{
+	height: 300px;
+	width: 100%;
+}
+.services{
+	
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+
+	grid-gap: 1px;
+		
+}
+
+.service1{
+	margin-left: 150px;
+	color: rgb(32, 31, 31);
+    font-size:large;
+    font-weight: bold;
+    font-style: oblique;
+    grid-column-start: 1;
+    grid-column-end: 2;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 4px;
+	height: 200px;
+	width: 300px;
+	background-color: #fff;
+	position: absolute;
+	bottom: 0;
+}
+
+.service2{
+	height: 200px;
+	width: 300px;
+	color: rgb(22, 15, 15);
+    font-size:large;
+    font-weight: bold;
+    font-style: oblique;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 4px;
+	position: absolute;
+	bottom: 0;
+	left:500px;
+	background-color: #fff;
+}
+.service3{
+	height: 200px;
+	width: 300px;
+	margin-right: 200px;
+	color: #0b0a0a;
+    font-size:large;
+    font-weight: bold;
+    font-style: oblique;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 4px;
+	position: absolute;
+	bottom: 0;
+	left:850px;
+	background-color: #fff;
+}
+.benefits{
+	text-align: center;
+	margin-bottom: 100px;
+}
+.benefitexp{
+	font-weight: normal;
+	font-family: 'Times New Roman', Times, serif;
+	font-style: normal;
+	text-align:center;
+	position: relative;
+	
+}
+
+footer{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	
+}

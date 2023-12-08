@@ -1,0 +1,99 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  .information {
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 5px;
+    width: 400px;
+  }
+  
+
+  
+  .block {
+    font-size: 16px;
+    margin-bottom: 5px;
+    display: inline-block;
+    text-align: right;
+  }
+  
+ 
+  
+ 
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"],
+  input[type="tel"] {
+    font-size: 16px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    color: #666;
+    cursor: not-allowed;
+  }
+  
+  header{
+	text-align: center;
+	background-color: #333;
+	color:#fff;
+	padding: 10px;
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar ul {
+	
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	background-color: #333;
+	text-align: center;
+
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar a {
+	width: 100%;
+    display: block;
+    padding: 25px 20px;
+    text-decoration: none;
+    color: #fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align: center;
+}
+.navbar a:hover{
+	background-color:#555;
+}
